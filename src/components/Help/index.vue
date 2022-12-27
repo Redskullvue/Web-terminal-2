@@ -19,6 +19,7 @@ export default {
         { name: "/projects", desc: "To see the list of my projects" },
         { name: "/clear", desc: "To clear whatever is on the screen" },
         { name: "/about", desc: "To See Everything about my presonal stuff" },
+        { name: "/contact", desc: "To see my information contact" },
       ],
     };
   },

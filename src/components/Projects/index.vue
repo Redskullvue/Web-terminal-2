@@ -40,6 +40,11 @@ export default {
           desc: "TaskManager",
           link: "https://todovue1.netlify.app/",
         },
+        {
+          name: "Password-Generator",
+          desc: "Generate Strong Password And Save them ",
+          link: "#",
+        },
       ],
     };
   },
