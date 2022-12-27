@@ -7,6 +7,7 @@
         <span class="dot">|</span>
       </h3>
     </div>
+    <!-- pid = props id  -->
     <y-input
       v-for="submit in submitCounts"
       :pid="'i' + submit"
@@ -19,6 +20,7 @@
       <y-project v-if="inputComponentValue == '/projects'" />
       <y-skills v-if="inputComponentValue == '/skills'" />
       <y-about v-if="inputComponentValue == '/about'" />
+      <y-contact v-if="inputComponentValue == '/contact'" />
       <p v-if="showError">
         {{ inputComponentValue }}
         <span>Is not a command try <span>/help</span> </span>
@@ -33,6 +35,7 @@ import YHelp from "../Help/index.vue";
 import YSkills from "../skills/index.vue";
 import YProject from "../Projects/index.vue";
 import YAbout from "../About/index.vue";
+import YContact from "../contact/index.vue";
 
 export default {
   name: "YContainer",
@@ -42,6 +45,7 @@ export default {
     YSkills,
     YProject,
     YAbout,
+    YContact,
   },
 
   data() {
@@ -53,7 +57,7 @@ export default {
       id: 0,
     };
   },
-
+  //  I used this lifecycle hook for the responsive idea that i have
   mounted() {
     setInterval(() => {
       document.querySelector(".head-title").style =
@@ -70,7 +74,8 @@ export default {
         event != "/skills" &&
         event != "/projects" &&
         event != "/clear" &&
-        event != "/about"
+        event != "/about" &&
+        event != "/contact"
       ) {
         this.showError = true;
         setTimeout(() => {
@@ -79,7 +84,8 @@ export default {
       } else if (event == "/clear") {
         this.showError = false;
         this.inputComponentValue = "";
-        this.submitCounts.splice(0, this.counter - 1);
+        this.submitCounts.splice(0, this.submitCounts.length - 1);
+        console.log(this.counter - 1);
       }
       let testID = "i" + this.id;
       document.getElementById(testID).setAttribute("placeholder", "");
