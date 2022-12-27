@@ -43,7 +43,7 @@ export default {
         {
           name: "Password-Generator",
           desc: "Generate Strong Password And Save them ",
-          link: "#",
+          link: "https://passgenvue.netlify.app",
         },
       ],
     };
