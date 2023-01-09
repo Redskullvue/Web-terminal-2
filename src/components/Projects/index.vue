@@ -36,9 +36,9 @@ export default {
           link: "https://mycalculatorvue.netlify.app/",
         },
         {
-          name: "ToDo-App",
-          desc: "TaskManager",
-          link: "https://todovue1.netlify.app/",
+          name: "Music-Player",
+          desc: "(Work In Progress its still in dev mode)",
+          link: "https://musicplayere.netlify.app/",
         },
         {
           name: "Password-Generator",
