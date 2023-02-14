@@ -16,6 +16,21 @@ export default {
     return {
       projects: [
         {
+          name: "DigiZone",
+          desc: "An Online Shop",
+          link: "https://digizone.netlify.app/",
+        },
+        {
+          name: "Music-Player",
+          desc: "(Work In Progress its still in dev mode)",
+          link: "https://musicplayere.netlify.app/",
+        },
+        {
+          name: "Password-Generator",
+          desc: "Generate Strong Password And Save them ",
+          link: "https://passgenvue.netlify.app",
+        },
+        {
           name: "SplusTuning-Recipt",
           desc: "Printing Out Factors ",
           link: "https://splustest.netlify.app/",
@@ -34,16 +49,6 @@ export default {
           name: "Callculator",
           desc: "NeedLess",
           link: "https://mycalculatorvue.netlify.app/",
-        },
-        {
-          name: "Music-Player",
-          desc: "(Work In Progress its still in dev mode)",
-          link: "https://musicplayere.netlify.app/",
-        },
-        {
-          name: "Password-Generator",
-          desc: "Generate Strong Password And Save them ",
-          link: "https://passgenvue.netlify.app",
         },
       ],
     };
