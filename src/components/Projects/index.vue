@@ -50,6 +50,11 @@ export default {
           desc: "NeedLess",
           link: "https://mycalculatorvue.netlify.app/",
         },
+        {
+          name: "Quote App",
+          desc: "Using An api to display quotes",
+          link: "https://vuequote.netlify.app/",
+        },
       ],
     };
   },
