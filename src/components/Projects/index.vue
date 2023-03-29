@@ -16,24 +16,24 @@ export default {
     return {
       projects: [
         {
+          name: "Morent",
+          desc: "A Platform to Rent Cars fast and Easyly",
+          link: "https://morent1.netlify.app/",
+        },
+        {
+          name: "Quote App",
+          desc: "Using An api to display quotes",
+          link: "https://vuequote.netlify.app/",
+        },
+        {
           name: "DigiZone",
           desc: "An Online Shop",
           link: "https://digizone.netlify.app/",
         },
         {
-          name: "Music-Player",
-          desc: "(Work In Progress its still in dev mode)",
-          link: "https://musicplayere.netlify.app/",
-        },
-        {
           name: "Password-Generator",
           desc: "Generate Strong Password And Save them ",
           link: "https://passgenvue.netlify.app",
-        },
-        {
-          name: "SplusTuning-Recipt",
-          desc: "Printing Out Factors ",
-          link: "https://splustest.netlify.app/",
         },
         {
           name: "Weather-App",
@@ -46,14 +46,9 @@ export default {
           link: "https://deliciousfoodlayout.netlify.app/",
         },
         {
-          name: "Callculator",
+          name: "Calculator",
           desc: "NeedLess",
           link: "https://mycalculatorvue.netlify.app/",
-        },
-        {
-          name: "Quote App",
-          desc: "Using An api to display quotes",
-          link: "https://vuequote.netlify.app/",
         },
       ],
     };
