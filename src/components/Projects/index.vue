@@ -16,6 +16,11 @@ export default {
     return {
       projects: [
         {
+          name: "Anil Group",
+          desc: "Architechture Website",
+          link: "http://www.anilgroup.co/",
+        },
+        {
           name: "Morent",
           desc: "A Platform to Rent Cars fast and Easyly",
           link: "https://morent1.netlify.app/",
