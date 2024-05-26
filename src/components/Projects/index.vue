@@ -16,14 +16,24 @@ export default {
     return {
       projects: [
         {
+          name: "Anil Group",
+          desc: "Architechture Website",
+          link: "http://www.anilgroup.co/",
+        },
+        {
           name: "Dodge Cube",
           desc: "Dont Let the cubes hit u ;  a 3D game using three js ",
           link: "https://dodgecube.netlify.app/",
         },
         {
-          name: "Anil Group",
-          desc: "Architechture Website",
-          link: "http://www.anilgroup.co/",
+          name: "O'studio",
+          desc: "Architecture Group Website",
+          link: "http://ostudio.design/",
+        },
+        {
+          name: "Webeez Website",
+          desc: "Software Company",
+          link: "https://webeez1.netlify.app/",
         },
         {
           name: "Morent",
