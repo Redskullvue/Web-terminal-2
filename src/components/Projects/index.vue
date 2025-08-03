@@ -17,7 +17,7 @@ export default {
       projects: [
         {
           name: "Daravin",
-          desc: "An automatic e-commerce builder + marketplace (Launch : 10/8/2025) - my biggest project ever",
+          desc: "An automatic e-commerce builder + marketplace (Launch : 10/8/2025) - my biggest project ever - Back-end and Front-end Developed by myself",
           link: "https://daravin.ir",
         },
         {
