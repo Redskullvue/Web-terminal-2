@@ -16,9 +16,24 @@ export default {
     return {
       projects: [
         {
+          name: "Daravin",
+          desc: "An automatic e-commerce builder + marketplace (Launch : 10/8/2025) - my biggest project ever",
+          link: "https://daravin.ir",
+        },
+        {
           name: "Anil Group",
-          desc: "Architechture Website",
+          desc: "Architechture Website (There Are Some Copies in the code)",
           link: "http://www.anilgroup.co/",
+        },
+        {
+          name: "Morent",
+          desc: "A Platform to Rent Cars fast and Easyly (UI Developed)",
+          link: "https://morent1.netlify.app/",
+        },
+        {
+          name: "Webeez Website",
+          desc: "Software Company - a personal project introducing me and my work (Dev mode)",
+          link: "https://webeez1.netlify.app/",
         },
         {
           name: "Dodge Cube",
@@ -30,24 +45,10 @@ export default {
           desc: "Architecture Group Website",
           link: "http://ostudio.design/",
         },
-        {
-          name: "Webeez Website",
-          desc: "Software Company",
-          link: "https://webeez1.netlify.app/",
-        },
-        {
-          name: "Morent",
-          desc: "A Platform to Rent Cars fast and Easyly",
-          link: "https://morent1.netlify.app/",
-        },
-        {
-          name: "Quote App",
-          desc: "Using An api to display quotes",
-          link: "https://vuequote.netlify.app/",
-        },
+
         {
           name: "DigiZone",
-          desc: "An Online Shop",
+          desc: "An Online Shop (Test)",
           link: "https://digizone.netlify.app/",
         },
         {
@@ -62,13 +63,8 @@ export default {
         },
         {
           name: "Delicous-Food",
-          desc: "Pure HTML and CSS Layout of a resturant ",
+          desc: "Pure HTML and CSS Layout of a resturant website ",
           link: "https://deliciousfoodlayout.netlify.app/",
-        },
-        {
-          name: "Calculator",
-          desc: "NeedLess",
-          link: "https://mycalculatorvue.netlify.app/",
         },
       ],
     };
