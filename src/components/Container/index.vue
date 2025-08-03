@@ -147,4 +147,15 @@ span {
     width: 100%;
   }
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .inputs {
+    margin-left: 0px;
+  }
+  .responds {
+    margin-left: 0px;
+  }
+}
 </style>

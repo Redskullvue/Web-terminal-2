@@ -43,4 +43,9 @@ label {
   color: #fff;
   margin-left: 50px;
 }
+@media only screen and (max-width: 600px) {
+  label {
+    margin-left: 0px;
+  }
+}
 </style>
